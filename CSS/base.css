@@ -1,0 +1,21 @@
+html, body {
+    width: 100%;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    line-height: 18px;
+    font-family: 'Droid Sans', arial, serif;
+}
+
+
+
+div#wrapper {
+    display: block;
+    position: relative;
+    min-width: 960px;
+    min-height: 75vh;
+    width: 72%;
+    margin: 0 auto;
+}
