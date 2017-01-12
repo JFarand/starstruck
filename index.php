@@ -1,8 +1,9 @@
 <?php get_template_part('head'); ?>
     <div id="wrapper" class="hfeed">
-       
+
 <?php get_header(); ?>
     <div id="container">
+<?php get_template_part( 'social_bank' ); ?>
 <section id="content" role="main">
 <?php get_template_part('entry', 'home'); ?>
 </section>
