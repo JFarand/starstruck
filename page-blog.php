@@ -13,6 +13,7 @@
         </style>
         <?php get_header(); ?>
         <div id="container">
+          <?php get_template_part( 'social_bank' ); ?>
             <section id="content" role="main">
               <header class="header">
               <h1 class="entry-title">Blog</h1>

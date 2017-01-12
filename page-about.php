@@ -1,7 +1,7 @@
 <?php get_template_part('head'); ?>
     <div id="wrapper" class="hfeed">
     <style>
-        
+
 
         header.header {
             position: relative;
@@ -13,6 +13,7 @@
     </style>
 <?php get_header(); ?>
     <div id="container">
+      <?php get_template_part( 'social_bank' ); ?>
 <section id="content" role="main">
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
