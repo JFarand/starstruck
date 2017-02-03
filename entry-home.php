@@ -1,4 +1,10 @@
 <style>
+  div.description_block {
+      display: block;
+      position: relative;
+      width: 60%;
+  }
+
     span.home_quote {
         display: block;
         position: relative;

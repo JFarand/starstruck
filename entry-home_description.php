@@ -5,7 +5,7 @@
 
     div#descriptions_wrapper > div {
         flex: 1;
-        margin: 12px;
+        margin-top: 12px;
     }
 
     div#descriptions_wrapper > div > span.blocks_heading h3 {
